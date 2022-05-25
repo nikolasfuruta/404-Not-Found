@@ -7,7 +7,7 @@
 <div align="center">
   <h3>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://nikolasfuruta.github.io/404-Not-Found/">
       Solution
     </a>
     <span> | </span>
