@@ -1,0 +1,112 @@
+.base {
+  position: absolute;
+}
+
+.row-base {
+  height: 50vh;
+  z-index: 0;
+}
+
+#base-bg-orange {
+  background-color: #6E3CBC;
+  position: absolute;
+  height: 50vh;
+  z-index: 0;
+}
+
+#base-bg-yello {
+  background-color:#7267CB;
+  position: absolute;
+  height: 50vh;
+  left: 50%;
+  z-index: 0;
+}
+
+#base-bg-white {
+  background-color: #B8E4F0;
+  position: absolute;
+  height: 50vh;
+  z-index: 0;
+}
+
+#base-bg-green {
+  background-color: #98BAE7;
+  position: absolute;
+  height: 50vh;
+  left: 50%;
+  z-index: 0;
+}
+
+.intra-base {
+  background-color: #F2F2F2;
+  border: solid 1px;
+  z-index: 1;
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  bottom: 10%;
+  left: 10%;
+  border-radius: 2rem;
+  border-color: black;
+  box-shadow: 2px 2px 10px rgb(51, 51, 51);
+}
+
+.intra-base-img {
+  width: 105%;
+  margin: 2rem 0px 0px 4rem;
+  transform: rotate(-25deg);
+}
+
+.intra-base-txt {
+  text-align: center;
+}
+
+.intra-base-txt h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1200%;
+}
+
+.intra-base-txt h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30%;
+  line-height: 0.5;
+}
+
+.intra-base-txt h3 {
+  font-family: 'Space Mono', monospace;
+  
+}
+
+.intra-base-txt p {
+  font-family: 'Space Mono', monospace;
+  width: 65%;
+  font-size: 120%;
+  margin: 10% auto;
+}
+
+.intra-base-box {
+  margin-top: 12%;
+}
+
+@media (max-width: 900px) {
+  .intra-base {
+    bottom: 10%;
+    left: 10%;
+    border-radius: 2rem;
+  }
+
+  .intra-base-img {
+    width: 25%;
+    transform: rotate(0deg);
+    margin: 2rem 2rem 2rem 0.2rem;
+    position: absolute;
+    z-index: 0;
+    top: 20%;
+    transform: rotate(-20deg);
+  }
+
+  .intra-base-box{
+    position: absolute;
+    z-index: 1;
+  }
+}
